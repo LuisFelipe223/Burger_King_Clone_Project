@@ -1,0 +1,732 @@
+/*CSS smartphone*/
+@media (min-width: 0px) and (max-width: 480px) {
+	/*General configuration - configuração geral*/
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: "Georgia";}
+	body {
+		font-family: "Georgia";font-weight: bolder;
+		position:  relative;}
+
+	/*Page header - cabecalho da págin*/
+	header {
+		position: -webkit-sticky;
+		position: sticky;top: 0;
+		display: flex;
+		width: 100%;height: 55px;
+		background-color: #f5ebdc;}
+	header ul {
+		width: 90%;list-style: none;
+		display: flex;
+		flex-direction: row;justify-content: space-between;
+		list-style: none;}
+	header ul li {}
+	header ul li img {
+		margin-top: 5%;
+		margin-left: 15%;
+		width: 70px;}
+	header ul li a {
+
+			display: none;}
+	header ul li button {
+		
+		margin-top: 10%;}
+
+	/*Botão de "saiba mais"*/
+	#banners {
+		background-image: url("../img/mobile/bannerInicial_bk.jpg");
+		background-size: 100% 100%;
+		width: 100%;height: 600px;
+		display: flex;
+		justify-content: center;align-items: flex-end;}
+	#banners button {
+
+		width: 70%; height: auto;}
+
+
+	/*First section
+	Nearby restaurants - Restaurantes próximos*/
+	#descricao_restaurantes {
+		width: 100%;
+		height: 430px;
+		background-color: #f5ebdc;
+		color: #502314;
+		display: flex;
+		justify-content: center;}
+	#descricao_restaurantes div {
+		margin-top: 4%;
+		width: 100%;
+		text-align: center;}
+	#descricao_restaurantes div #titulo {
+		width: 100%;
+		font-size: 1.4rem;}
+	#descricao_restaurantes div #descricao {
+		width: 100%;
+		font-size: 1.2rem;}
+	#descricao_restaurantes div #descricao #input_endereco {
+		width: 90%;
+		height: 50px;
+		border-radius: 8px;
+		border:  1px solid;
+		text-align: center;
+		font-family: "Georgia";
+		font-size: 1.4rem;
+		font-weight: bolder;
+		color: grey;
+		margin: 5%;}
+	#descricao_restaurantes div #descricao #artigo_descricao {
+		margin-top: 1%;
+		width: 100%;
+		font-size: 0.8rem;
+		font-family: "Calibri";
+		font-weight: none;
+		color: #000000b8;}
+	#descricao_restaurantes div #descricao button {
+		font-size: 1rem;
+		padding: 10px 20px 10px 20px;}
+
+	/*Second section
+	Download the app - Baixe o app*/
+	#descricao_app {
+		background-color: #D62300;
+		width: 100%;
+		height: 300px;
+		display: flex;}
+	#descricao_app #s1 {
+		display:  flex;
+		align-items: flex-end;
+		width: 45%;
+		height: 100%;}
+	#descricao_app #s1 #imgapp {
+        width: 100%;
+		margin-left: 10%;}
+	#descricao_app #s2 {
+		display:  flex;
+		align-items: flex-start;
+		flex-direction: row;
+		padding-top: 6%;
+		padding-left: 6%;
+		width: 55%;}
+	#descricao_app #s2 div {}
+	#descricao_app #s2 div label{
+		width: 100%;
+		font-size: 1.5rem;
+		color: #fff;}
+	#descricao_app #s2 div #appstore {}
+	#descricao_app #s2 div #googleplay {}
+
+	/*Third section
+	About the menu - Sobre o cardápio*/
+	#bannersCardapio {
+		background-image: url("../img/mobile/sliderlancheGrelha_bk.jpg");
+		margin: 3%;
+		border-radius: 10px;
+		background-size: 100% 100%;
+		width: 94%;height: 350px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;}
+	#bannersCardapio button {
+		
+		display: none;}
+
+	/*Footer - RodapÃ© da pÃ¡gina*/
+	footer {
+		width: 100%;
+		background-color: #502314;}
+	footer #container_logo {
+		width: 100%;
+		display: flex;
+		justify-content: center;}
+	footer #container_logo img {
+		width: 70px;
+		margin-top: 4%;}
+	footer #container_sobre {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 1%;}
+	footer #container_sobre ul {
+		margin-top: 30px;
+		text-align: center;
+		list-style: none;
+		font-family: "Georgia";
+		font-size: 1.2rem;
+		font-weight: bolder;
+		color: #f5ebdc;}
+	footer #container_sobre ul li {
+		width: 100%;
+		margin: 3%;}
+	footer #container_informacoes {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1%;}
+	footer #container_informacoes ul {
+		margin-top: 10px;
+		width: 100%;}
+	footer #container_informacoes ul li {
+		list-style: none;
+		font-weight: none;
+		text-align: center;
+		font-family: "calibri";
+		font-size: 1rem;
+		color: #f5ebdc;}
+	footer hr {
+		margin-top: 5%;
+		margin-left: 10%;
+		color: #ffffff;
+		width: 80%;}
+	footer #container_redesSociais {
+		margin-top: 1%;
+		width: 100%;
+		display: flex;
+		justify-content: center;}
+	footer #container_redesSociais label {
+		text-align: center;
+		font-family: "Georgia";
+		margin-top: 5%;
+		width: 100%;
+		font-size: 1.2rem;
+		font-weight: bolder;
+		color: #f5ebdc;}
+
+	footer #images_redesSociais {
+		margin-top: 3%;
+		display: flex;
+		justify-content: center;}
+	footer #images_redesSociais img {
+		width: 40px;
+		margin-right: 2%;
+		margin-left: 2%;}
+	footer #container_direitos {
+		padding: 3% 10% 20% 10%;
+		display: flex;
+		justify-content: center;}
+	footer #container_direitos #direitos {
+		text-align: center;
+		font-family: "calibri";
+		font-size: 1rem;
+		color: #f5ebdc;
+		font-weight: none;
+	}
+
+	/*Classes gerais*/
+	.buttons {
+		padding: 10px 20px 10px 20px;
+		border:  none;
+		border-radius: 8px;
+		background-color: #D62300;
+		color:  #fff;
+		font-size: 0.9rem;
+		font-weight: bolder;}
+	.space {
+		margin-right: 2%;
+		margin-left: 2%;}
+	.spaceButton {
+
+		margin-bottom: 3%;}
+	.images {
+		width: 75%;
+		height: auto;
+		margin-top: 5%;
+		margin-right: 3%;}
+}
+
+/*CSS tablet*/
+@media (min-width: 480px) and (max-width: 768px){
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: "Georgia";}
+	body {
+		font-family: "Georgia";
+		font-weight: bolder;
+		position:  relative;}
+
+	/*Page header - cabeçalho da página*/
+	header {
+		position: -webkit-sticky;
+		position: sticky;top: 0;
+		display: flex;
+		width: 100%;height: 55px;
+		background-color: #f5ebdc;}
+	header ul {
+		width: 90%;list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		list-style: none;}
+	header ul li {}
+	header ul li img {
+		margin-top: 5%;
+		margin-left: 15%;
+		width: 70px;}
+	header ul li a {
+
+			display: none;}
+	header ul li button {
+		
+		margin-top: 10%;}
+
+	/*First section
+	Nearby restaurants - Restaurantes próximo*/
+	#banners {
+		background-image: url("../img/mobile/bannerTerceiro_bk.jpg");
+		background-size: 100% 100%;
+		width: 100%;height: 900px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;}
+	/*Botão de "saiba mais"*/
+	#banners button {
+		width: 70%;
+		height: auto;}
+
+	/*Segunda Section*/
+	#descricao_restaurantes{
+		width: 100%;
+		height: auto;
+		padding-bottom: 40px;
+		background-color: #f5ebdc;
+		color: #502314;
+		display: flex;
+		justify-content: center;
+	}
+	#descricao_restaurantes div {
+		margin-top: 2%;
+		width: 95%;
+		text-align: center;
+	}
+	#descricao_restaurantes div #titulo {
+		width: 100%;
+		font-size: 1.5rem;
+	}
+	#descricao_restaurantes div #descricao {
+		width: 100%;
+		margin-top: 20px;
+		font-size: 1rem;
+	}
+	#descricao_restaurantes div #input_endereco {
+		width: 100%;
+		height: 45px;
+
+		border-radius: 4px;
+		border:  1px solid;
+
+		text-align: center;
+		font-family: "Georgia";
+		font-size: 1.2rem;
+		font-weight: bolder;
+		color: grey;
+
+		margin-top: 10px;
+	}
+	#descricao_restaurantes div #artigo_descricao{
+		margin-top: 1%;
+		width: 100%;
+		font-size: 0.9rem;
+		font-family: "Calibri";
+		font-weight: none;
+		color: #000;
+	}
+	#descricao_app{
+		padding-top: 15px;
+		background-color: #D62300;
+		width: 100%;
+		height: 420px;
+		display: flex;
+	}
+	#descricao_app #s1 {
+		display:  flex;
+		align-items: flex-end;
+		width: 50%;
+		height: 100%;
+	}
+	#descricao_app #s1 #imgapp {
+		width: 90%;
+		margin-left: 10%;
+	}
+	#descricao_app #s2 {
+		display:  flex;
+		align-items: flex-start;
+		flex-direction: row;
+		padding-top: 6%;
+		width: 50%;
+	}
+	#descricao_app #s2 #descricao_app_label {
+		width: 100%;
+		font-size: 2.5rem;
+		color: #fff;
+	}
+	/*Terceira Section*/
+	#bannersCardapio{
+		background-image: url("../img/mobile/cardapio_bk.jpg");
+		background-size: 100% 100%;
+		width: 100%;height: 550px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+
+	/*Footer - Rodapé da página*/
+	footer {
+		width: 100%;
+		background-color: #502314;}
+	footer #container_logo {
+		width: 100%;
+		display: flex;
+		justify-content: center;}
+	footer #container_logo img {
+		width: 70px;
+		margin-top: 4%;}
+	footer #container_sobre {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 1%;}
+	footer #container_sobre ul {
+		margin-top: 30px;
+		text-align: center;
+		list-style: none;
+		font-family: "Georgia";
+		font-size: 1.5rem;
+		font-weight: bolder;
+		color: #f5ebdc;}
+	footer #container_sobre ul li {
+		width: 100%;
+		margin: 3%;}
+	footer #container_informacoes {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1%;}
+	footer #container_informacoes ul {
+		margin-top: 10px;
+		width: 100%;}
+	footer #container_informacoes ul li {
+		list-style: none;
+		font-weight: none;
+		text-align: center;
+		font-family: "calibri";
+		font-size: 1.4rem;
+		color: #f5ebdc;}
+	footer hr {
+		margin-top: 5%;
+		margin-left: 10%;
+		color: #ffffff;
+		width: 80%;}
+	footer #container_redesSociais {
+		margin-top: 1%;
+		width: 100%;
+		display: flex;
+		justify-content: center;}
+	footer #container_redesSociais label {
+		text-align: center;
+		font-family: "Georgia";
+		margin-top: 5%;
+		width: 100%;
+		font-size: 1.5rem;
+		font-weight: bolder;
+		color: #f5ebdc;}
+
+	footer #images_redesSociais {
+		margin-top: 3%;
+		display: flex;
+		justify-content: center;}
+	footer #images_redesSociais img {
+		width: 40px;
+		margin-right: 2%;
+		margin-left: 2%;}
+	footer #container_direitos {
+		padding: 3% 10% 20% 10%;
+		display: flex;
+		justify-content: center;}
+	footer #container_direitos #direitos {
+		text-align: center;
+		font-family: "calibri";
+		font-size: 1.4rem;
+		color: #f5ebdc;
+		font-weight: none;
+	}
+	/*Classes gerais*/
+	.buttons {
+		padding: 10px 18px 10px 18px;
+		border:  none;
+		border-radius: 4px;
+		background-color: #D62300;
+		color:  #fff;
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+	.space {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	.spaceButton {
+
+		margin-bottom: 3%;
+	}
+	.images {
+		width: 40%;
+		height: auto;
+		margin-top: 5%;
+		margin-right: 3%;
+	}
+}
+
+/*CSS laptop/monitor*/
+@media (min-width: 768px){
+	* {
+		margin:  0;
+		padding: 0;
+		font-family: "Georgia";
+	}
+	a {
+		text-decoration: none;
+		color: #502314;
+	}
+
+	body{
+		font-family: "Georgia";
+		font-weight: bolder;
+		position:  relative;
+	}
+	header {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 70px;
+		background-color: #f5ebdc;
+	}
+	/*Para tds os "ul"*/
+	ul {
+		width: 90%;
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	header ul li {
+		font-family: "Georgia";
+		font-weight: bolder;
+		font-size: 1.3rem;
+		color: #502314;
+		cursor: pointer;
+	}
+	header ul li img {
+		margin-top: 25%;
+		margin-left: 40%;
+		width: 85px;
+	}
+	/*Primeira section*/
+	#banners{
+		background-image: url("../img/bannerInicial_bk.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+		min-height: 900px;
+		height: auto;
+		overflow: auto;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	/*Segunda Section*/
+	#descricao_restaurantes{
+		width: 100%;
+		height: 430px;
+		background-color: #f5ebdc;
+		color: #502314;
+		display: flex;
+		justify-content: center;
+	}
+	#descricao_restaurantes div {
+		margin-top: 2%;
+		width: 50%;
+		text-align: center;
+	}
+	#descricao_restaurantes div #titulo {
+		width: 100%;
+		font-size: 2.5rem;
+	}
+	#descricao_restaurantes div #descricao {
+		width: 100%;
+		font-size: 1.3rem;
+	}
+	#descricao_restaurantes div #input_endereco {
+		width: 100%;
+		height: 45px;
+		border-radius: 4px;
+		border:  1px solid;
+		text-align: center;
+		font-family: "Georgia";
+		font-size: 1.2rem;
+		font-weight: bolder;
+		color: grey;
+		margin-top: 1%;
+	}
+	#descricao_restaurantes div #artigo_descricao{
+		margin-top: 1%;
+		width: 100%;
+		font-size: 0.9rem;
+		font-family: "Calibri";
+		font-weight: none;
+		color: #000;
+	}
+	#descricao_app{
+		background-color: #D62300;
+		width: 100%;
+		height: 620px;
+		display: flex;
+	}
+	#descricao_app #s1 {
+		display:  flex;
+		align-items: flex-end;
+		width: 50%;
+		height: 100%;
+	}
+	#descricao_app #s1 #imgapp {
+        
+		margin-left: 10%;
+	}
+	#descricao_app #s2 {
+		display:  flex;
+		align-items: flex-start;
+		flex-direction: row;
+		padding-top: 6%;
+		width: 50%;
+	}
+	#descricao_app #s2 #descricao_app_label {
+		width: 100%;
+		font-size: 3rem;
+		color: #fff;
+	}
+	/*Terceira Section*/
+	#bannersCardapio{
+		background-image: url("../img/sliderLancheGrelha_bk.jpg");
+		/*margin: 3%;
+		border-radius: 15px;*/
+		background-size: 100% 100%;
+		width: 100%;height: 800px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+
+
+	/*Rodapé cor de fundo #502314*/
+	footer {
+		width: 100%;
+		height: 450px;
+		background-color: #502314;
+	}
+	footer #container_logo {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	footer #container_logo #logo_bk {
+		width: 85px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	footer #container_sobre {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 1%;
+	}
+	footer #container_sobre ul {
+		text-align: center;
+		font-family: "Georgia";
+		font-size: 1.2rem;
+		font-weight: bolder;
+		color: #f5ebdc;
+	}
+	footer #container_informacoes {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 1%;
+	}
+	footer #container_informacoes ul {}
+	footer #container_informacoes ul li {
+		text-align: center;
+		font-family: "calibri";
+		font-size: 1.1rem;
+		color: #f5ebdc;
+	}
+	footer hr {
+		margin-top: 3%;
+		margin-left: 15%;
+		color: white;
+		width: 70%;
+	}
+	footer #container_redesSociais {
+		margin-top: 1%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	footer #container_redesSociais label {
+		text-align: center;
+		font-family: "Georgia";
+		font-size: 1.2rem;
+		font-weight: bolder;
+		color: #f5ebdc;
+	}
+	footer #images_redesSociais {
+		margin-top: 1%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	footer #images_redesSociais img {
+		width: 40px;
+		margin-right: 0.2%;
+		margin-left: 0.2%;
+	}
+	footer #container_direitos {
+		margin-top: 1%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	footer #container_direitos article {
+		text-align: center;
+		font-family: "calibri";
+		font-size: 1.1rem;
+		color: #f5ebdc;
+		font-weight: none;
+	}
+
+	/*Classes gerais*/
+	.buttons {
+		padding: 10px 18px 10px 18px;
+		border:  none;
+		border-radius: 4px;
+		background-color: #D62300;
+		color:  #fff;
+		font-size: 1rem;
+		font-weight: bolder;
+	}
+	.space {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	.spaceButton {
+
+		margin-bottom: 3%;
+	}
+	.images {
+		width: 40%;
+		height: auto;
+		margin-top: 5%;
+		margin-right: 3%;
+	}
+}
